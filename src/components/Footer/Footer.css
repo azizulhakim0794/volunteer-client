@@ -1,0 +1,40 @@
+.last-footer{
+    background-color: rgb(43, 46, 58);
+    color:white;
+    padding-top: 5%;
+    height: 400px;
+}
+.side-gap{
+    margin-left: 6%;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    margin-top: 7%;
+}
+h5.font {
+    margin-left: 13%;
+    margin-bottom: 13%;
+}
+#copyright{
+    background-color: none !important;
+    color: white;
+}
+img.calendar ,img.people {
+    width: 20px;
+}
+img.people {
+    margin-left: 38px;
+}
+@media screen and (max-width:1400px){
+    .last-footer{
+        /* height: 924px; */
+        width: 100%;
+    }
+}
+@media screen and (max-width:1200px){
+    .last-footer{
+        height: 690px;
+    }
+    
+}

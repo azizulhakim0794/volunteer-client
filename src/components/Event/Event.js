@@ -14,7 +14,7 @@ const Event = () => {
     const [cart , setCart] = useState([])
     const [loggedInUser , setLoggedInUser] = useContext(UserContext)
     useEffect(()=>{
-    fetch('http://localhost:5000/addRegistration?email='+loggedInUser.email,{
+    fetch('https://fast-castle-20800.herokuapp.com/addRegistration?email='+loggedInUser.email,{
       method: 'GET',
       headers: {
         'Content-Type' : 'application/json',
@@ -27,7 +27,7 @@ const Event = () => {
     // console.log(loggedInUser)
     const dutyDelete = (id)=>{
     
-      fetch(`http://localhost:5000/delete/${id}`,{
+      fetch(`https://fast-castle-20800.herokuapp.com/delete/${id}`,{
         method: 'DELETE',
       })
       .then(res => res.json())

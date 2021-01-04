@@ -29,12 +29,12 @@ const Register = (e) => {
   
   // console.log
     //   useEffect(() =>{
-    //     fetch('http://localhost:5000/duties')
+    //     fetch('https://fast-castle-20800.herokuapp.com/duties')
     //     .then(res => res.json())
     //     .then(data => setDuties(data))
     // },[])
   useEffect(()=>{
-    fetch('http://localhost:5000/duties/'+id)
+    fetch('https://fast-castle-20800.herokuapp.com/duties/'+id)
     .then(res => res.json())
     .then(data => 
       setDuty(data[0]))
@@ -55,7 +55,7 @@ const handleCheckOutDate = (e) => {
 
   const handleSubmit = (e) => {
     
-      fetch('http://localhost:5000/addRegistration', {
+      fetch('https://fast-castle-20800.herokuapp.com/addRegistration', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

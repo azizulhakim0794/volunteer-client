@@ -11,23 +11,28 @@ const Header = () => {
   // }
     return (
         <div className="container">
-            <br/>
-            
-            <nav className="navbar navbar-expand-lg navbar-light bg-none">
-  <img src={logo} className="navbar-brand logo" />
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div className="navbar-nav ml-auto">
-      <Link to="/home"className="nav-link active">Home </Link>
-      <Link to="/event"className="nav-link active">Event</Link>
-      <Link to="/contact"className="nav-link active">Contact</Link>
-      <Link to="/login"className="nav-link active">Login</Link>
-      {/* <button onClick={handleRegister} className="btn btn-success">Register</button> */}
-    </div>
-  </div><br/>
-</nav>
+<nav className="navbar navbar-expand-lg navbar-light">
+<img src={logo} className="navbar-brand logo" />
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                <Link to="/home" className="nav-link">Home</Link>
+                </li>
+                <li className="nav-item">
+                <Link to="/event" className="nav-link">Event</Link>
+                </li>
+                <li className="nav-item">
+                <Link to="/contact" className="nav-link">Contact</Link>
+                </li>
+                <li className="nav-item">
+                <Link to="/login" className="nav-link">Login</Link>
+                </li>
+              </ul>
+            </div>
+        </nav>
 
         </div>
     );

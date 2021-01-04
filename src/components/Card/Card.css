@@ -4,17 +4,36 @@
 .container.row {
     margin: auto;
 }
-.card-columns {
+/* .card-columns {
     @include media-breakpoint-only(lg) {
       column-count: 4;
     }
     @include media-breakpoint-only(xl) {
       column-count: 5;
     }
-  }
+  } */
   .mar-bottom {
     margin-bottom: 4%;
 }
 .cursor {
   cursor: pointer;
+}
+@media screen and (max-width:500px){
+  .col-md-3.mar-bottom {
+      margin-left: 20%;
+  }
+  .card-body {
+    text-align: center;
+}
+  .dutyImg {
+    width: 50% !important;
+    height: 200px;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    text-align: center;
+    margin-left: 23%;
+}
+p.right {
+  width: 53% !important;
+}
 }

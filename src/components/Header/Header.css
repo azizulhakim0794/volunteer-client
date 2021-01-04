@@ -12,3 +12,12 @@ a.nav-link {
     margin-right: 20px;
     font-weight: 500;
 }
+a.nav-link{
+    margin: 0px 38px;
+    padding: .5rem 2rem; 
+    line-height: 1.5; 
+    text-align: center;
+}
+.gap{
+    margin-top: 90px;
+}
