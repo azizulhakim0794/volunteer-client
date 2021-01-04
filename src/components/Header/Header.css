@@ -1,0 +1,14 @@
+p.navbar-text.text-right {
+    margin-left: 77%;
+}
+.profilePic{
+    height: 35px;
+    width: 35px;
+}
+img.navbar-brand.logo {
+    height: 60px;
+}
+a.nav-link {
+    margin-right: 20px;
+    font-weight: 500;
+}

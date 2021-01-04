@@ -1,0 +1,11 @@
+.view{
+    background-image: url('../../../images/backimg.jpg');
+    background-size :cover;
+    height: 500px;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+    height: 496px;
+    top: -1px;
+        
+}

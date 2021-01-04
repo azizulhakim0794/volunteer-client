@@ -1,0 +1,12 @@
+
+.margin-top{
+    margin-top: -500px;
+}
+.mar-auto {
+    margin: auto;
+}
+p.right {
+    width: 16%;
+    height: auto;
+    margin-left: 78%;
+}

@@ -1,0 +1,7 @@
+.margin-auto{
+    margin: auto;
+}
+.col-md-5.margin-auto {
+    border: 1px solid gainsboro;
+    padding: 3%;
+}

@@ -1,0 +1,125 @@
+img.logo-img {
+    width: 162px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 572px;
+}
+ .border.out-look {
+    width: 402px;
+    height: 387px;
+    margin: auto;
+    margin-bottom: 6%;
+}
+/*img.google-img {
+    width: 39px;
+    margin-right: 122px;
+}
+.border.pill {
+    border-radius: 24px;
+    width: 78%;
+    margin: auto;
+    margin-top: 47px;
+    cursor: pointer;
+} */
+h2.log-head {
+    width: 160px;
+    margin: auto;
+    margin-top: 16%;
+}
+
+.frameIcon {
+    width: 350px;
+    height: 51px;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 7%;
+}
+
+p.iconText {
+    margin-left: 103px;
+    margin-top: -29px;
+}
+.image {
+    width: 31px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+p#or {
+    margin-top: 71px;
+    margin-left: 272px;
+}
+span#dag {
+    position: absolute;
+    width: 432px;
+    height: 22px;
+    left: 496px;
+    top: 642px;
+}
+p#or {
+    margin-top: 0px;
+    margin-left: 193px;
+    background: white;
+    width: 42px;
+    text-align: center;
+}
+
+.topOrder {
+    margin-top: 43%;
+    margin-left: 38%;
+}
+p.text-primary.cursor {
+    /* margin-top: 27px; */
+    width: 150px;
+    margin: auto;
+    margin-top: 7%;
+}
+@media screen and (max-width:1200){
+    img.logo-img{
+        margin-left: 523px;
+    }
+}
+@media screen and (max-width:1100px){
+    img.logo-img{
+        margin-left: 500px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    img.logo-img{
+        margin-left: 325px;
+    }
+}
+@media screen and (max-width:900px){
+    img.logo-img{
+        margin-left: 300px;
+    }
+} 
+@media screen and (max-width:800px){
+    img.logo-img{
+        margin-left: 275px;
+    }
+} 
+@media screen and (max-width:700px){
+    img.logo-img{
+        margin-left: 250px;
+    }
+} 
+@media screen and (max-width:600px){
+    img.logo-img{
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:500px){
+    img.logo-img{
+        margin-left: 167px;
+    }
+}
+@media screen and (max-width:400px){
+    img.logo-img{
+        margin-left: 150px;
+    }
+}
+
