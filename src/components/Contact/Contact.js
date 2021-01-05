@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className="container">
             <Header></Header>
-            <h3 className="contact">Try to call me 01760690793!!!</h3>
+            <h3 className="contact">Try to call me 0176069079!!!</h3>
         </div>
     );
 };

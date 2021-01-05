@@ -1,13 +1,7 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './Card.css'
-import fakeData from '../../fakeData/fakeData'
-import { UserContext } from '../../App';
-import { useHistory } from 'react-router-dom';
 const Card = (props) => {
-    const {name , id , image}  = props.data
-    const [loggedInUser , setLoggedInUser] = useContext(UserContext)
-   
-
+    const {name , image}  = props.data
     return (
         <>
             <div className="col-md-3 mar-bottom">

@@ -26,10 +26,9 @@ img.calendar ,img.people {
 img.people {
     margin-left: 38px;
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width:1366px){
     .last-footer{
-        /* height: 924px; */
-        width: 100%;
+        height: 500px;
     }
 }
 @media screen and (max-width:1200px){
@@ -37,4 +36,36 @@ img.people {
         height: 690px;
     }
     
+}
+
+@media screen and (max-width:500px){
+    .last-footer{
+        height: 550px !important;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .last-footer{
+        height: 590px !important;
+    }
+    
+}
+@media screen and (max-width:575px){
+    .col-md-3.mar-bottom {
+        margin-left: 16%;
+    }
+    
+}
+
+
+@media screen and (min-width:768px){
+    .last-footer{
+        height: 530px !important;
+    }
+    
+}
+@media screen and (min-width: 1366px){
+    .last-footer {
+        height: 399px !important;
+    }
 }

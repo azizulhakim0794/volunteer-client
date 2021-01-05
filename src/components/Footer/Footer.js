@@ -7,7 +7,7 @@ const Footer = () => {
              <section className="last-footer" id="other">
              <div className="container-sm">
                   <div className="row ">
-                  <div class="col-md-4.2 side-gap"><p>Millions of people of all ages and from around<br/> the world are improving their lives with us.</p></div>
+                  <div className="col-md-4.2 side-gap"><p>Millions of people of all ages and from around<br/> the world are improving their lives with us.</p></div>
                           <div className="col-md-2.6 side-gap">
                             <b><h5 className="font">We Do</h5></b>
                                       <ul>
