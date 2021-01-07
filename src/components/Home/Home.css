@@ -17,3 +17,9 @@ p.right {
 .color {
     background: #ecf1ec;
 }
+img.card-img-top {
+    height: 235px;
+}
+.row.card-deck {
+    margin-top: 3%;
+}

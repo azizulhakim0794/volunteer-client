@@ -7,34 +7,20 @@ import { useHistory, useParams } from 'react-router-dom';
 const Register = (e) => {
   const {id} = useParams()
   const history  = useHistory()
-  const date = new Date
-  const [loggedInUser , setLoggedInUser] = useContext(UserContext)
+  const [loggedInUser ] = useContext(UserContext)
   const [duty , setDuty] = useState([{
     details:"nothing"
   }])
-    const [duties , setDuties] = useState([])
-    const [count , setCount] = useState(1)
   const [selectedDate_data, setSelectedDate_data] = useState({
     checkIn : '',
     checkOut :'',
     description:"",
   })
-  // const dates = {...duty , selectedDate}
-  // setDuty(dates)
  
-    const dates = { ...duty , selectedDate_data}
-    // console.log(dates)
     const allData ={...loggedInUser , selectedDate_data}
 
-  
-  // console.log
-    //   useEffect(() =>{
-    //     fetch('https://fast-castle-20800.herokuapp.com/duties')
-    //     .then(res => res.json())
-    //     .then(data => setDuties(data))
-    // },[])
   useEffect(()=>{
-    fetch('https://fast-castle-20800.herokuapp.com/duties/'+id)
+    fetch(' https://fast-castle-20800.herokuapp.com/duties/'+id)
     .then(res => res.json())
     .then(data => 
       setDuty(data[0]))
@@ -55,7 +41,7 @@ const handleCheckOutDate = (e) => {
 
   const handleSubmit = (e) => {
     
-      fetch('https://fast-castle-20800.herokuapp.com/addRegistration', {
+      fetch(' https://fast-castle-20800.herokuapp.com/addRegistration', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
